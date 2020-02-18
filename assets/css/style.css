@@ -1,0 +1,123 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+/* header */
+
+html body header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(52, 198, 235, 0.800);
+}
+
+html body header nav ul li {
+    list-style: none;
+    float: left;
+    margin: 0.5rem;
+}
+
+html body header nav ul li img{
+    width: 2rem;
+}
+
+/* section */
+
+html body section {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+html body .section {
+    flex-direction: column;
+}
+
+html body .section-one {
+    background: rgba(52,198,235,1);
+    background: -moz-linear-gradient(top, rgba(52,198,235,1) 0%, rgba(195,0,209,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(52,198,235,1)), color-stop(100%, rgba(195,0,209,1)));
+    background: -webkit-linear-gradient(top, rgba(52,198,235,1) 0%, rgba(195,0,209,1) 100%);
+    background: -o-linear-gradient(top, rgba(52,198,235,1) 0%, rgba(195,0,209,1) 100%);
+    background: -ms-linear-gradient(top, rgba(52,198,235,1) 0%, rgba(195,0,209,1) 100%);
+    background: linear-gradient(to bottom, rgba(52,198,235,1) 0%, rgba(195,0,209,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34c6eb', endColorstr='#c300d1', GradientType=0 );
+}
+
+html body .section-one div img {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+
+html body .section-two {
+    color: rgba(37,34,79,1);
+}
+
+html body .section-two img {
+    width: 50%;
+}
+
+html body .section-three {
+    background-color: rgba(52,198,235,1);
+}
+
+html body .section-four {
+    color: rgba(37,34,79,1);
+}
+
+/* article */
+
+html body section article {
+    text-align: center;
+}
+
+html body section article h1 {
+    font-size: 3rem;
+}
+
+html body section article p {
+    font-size: 2rem;
+}
+
+html body section div ul li {
+    list-style: none;
+    float: left;
+    margin: 0.5rem;
+}
+
+html body section div ul li img {
+    width: 1.5rem;
+}
+
+/* footer */
+
+html body footer {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37,34,79,1);
+}
+
+@media (max-width: 800px) {
+    html body section  {
+        flex-direction: column;
+    }
+  }
